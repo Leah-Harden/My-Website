@@ -1,0 +1,41 @@
+:root {
+    --cosmic-Latte : #FCF5DF;
+    --melon : #fccabe;
+    --light-Coral : #EC8A90;
+}
+
+.cosmic-Latte {
+    background-color: #FCF5DF;
+}
+
+.melon {
+    background-color: #fccabe;
+}
+
+.light-Coral {
+    background-color: #EC8A90;
+}
+
+
+
+
+/*first page */
+nav {
+
+}
+.nav-List
+
+.title {
+    text-align: center;
+    margin: auto;
+}
+
+.text-first {
+    display: flex; 
+    flex-direction: column;
+
+}
+.first-photo {
+    width: 50%;
+}
+/*first page */
