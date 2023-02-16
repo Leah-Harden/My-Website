@@ -2,18 +2,20 @@
     --cosmic-Latte : #FCF5DF;
     --melon : #fccabe;
     --light-Coral : #EC8A90;
+    --english-Violet: #46354A;
+    --raisin-Black: #2B242E
 }
 
 .cosmic-Latte {
-    background-color: #FCF5DF;
+    background-color: var(--cosmic-Latte);
 }
 
 .melon {
-    background-color: #fccabe;
+    background-color: var(--melon);
 }
 
 .light-Coral {
-    background-color: #EC8A90;
+    background-color: var(--light-Coral);
 }
 
 
@@ -21,15 +23,23 @@
 
 /*first page */
 nav {
+margin: 10px;
 
 }
-.nav-List
 
+.whole-first {
+display: flex;
+flex-wrap: wrap;
+}
 .title {
     text-align: center;
-    margin: auto;
+    margin: 0px 725px 0px 0px;
 }
 
+.body-first {
+align-items: flex-end;
+height: 650px;
+}
 .text-first {
     display: flex; 
     flex-direction: column;
@@ -37,5 +47,12 @@ nav {
 }
 .first-photo {
     width: 50%;
+    margin: 10%;
 }
 /*first page */
+/*second page */
+.second-photo {
+    width: 30%;
+    border-radius: 50%
+}
+/*second page */
